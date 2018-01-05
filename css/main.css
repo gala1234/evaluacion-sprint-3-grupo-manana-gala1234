@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.block_hero {
+  height: 100vh;
+  background-color: #f26002;
+  background-image: url(../images/cover.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block_hero_menu-btn {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  border: none;
+  padding: 0;
+}
+
+.block_hero_menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/ico-menu.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  z-index: 10;
+}
+
+.block_hero-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  padding: 284px 4.6875% 0 4.6875%;
+  margin: 0;
+}
+
+.Hero-title {
+  margin: 0;
+}
+
+.Hero-summary {
+  margin: 10px 0 0 0;
+}
+
+.block_hero_scroll-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 45px;
+}
+
+.block_hero_scroll-btn {
+  height: 11.7px;
+  width: 20px;
+  background-color: white;
+  background-image: url(../images/ico-scroll-down.svg);
+  background-position: center center;
+  background-repeat: no repeat;
+  background-size: auto;
+  border: none;
+  padding: 0;
+}/* Color palette *//* Text styles */.Hero-title {
+  font-family: RobotoSlab;
+  font-size: 42px;
+  line-height: 1.31;
+  text-align: center;
+  height: 110px;
+}
+
+.Hero-summary {
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 300;
+  height: 21px;
+}
+
+.Section-title---desktop-center {
+  font-family: RobotoSlab;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.41;
+  text-align: center;
+}
+
+.Section-title---desktop {
+  font-family: RobotoSlab;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.41;
+  text-align: left;
+}
+
+.Section-title---tablet {
+  font-family: RobotoSlab;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.73;
+  text-align: left;
+}
+
+.Section-title---tablet-center {
+  font-family: RobotoSlab;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.73;
+  text-align: center;
+}
+
+.Section-title---mobile {
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.Section-title---mobile {
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.Button-alt {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  text-align: center;
+}
+
+button {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  text-align: center;
+}
+
+.Reason-description---tablet {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.Section-description---tablet {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.Reason-title---mobile {
+  font-family: RobotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.Reason-description---mobile {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.Section-description {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: left;
+}
+
+.Menu-item {
+  font-family: RobotoSlab;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.81;
+  text-align: left;
+}
+
+.Section-category {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: left;
+}
+
+.Footer---mobile {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .block_hero-div {
+    padding: 384px 4.6875% 0 4.6875%;
+  }
+
+  .Hero-summary {
+    margin: 20px 0 0 0;
+  }
+
+  .block_hero_scroll-div {
+    margin-top: 30px;
+  }
+
+  .Hero-title {
+    font-size: 80px;
+    line-height: 1.33;
+    height: 212px;
+  }
+
+  .Hero-summary {
+    font-size: 24px;
+    height: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .Hero-summary {
+    margin: 0 0 0 0;
+  }
+
+  .Hero-title {
+    font-size: 100px;
+    line-height: 1.32;
+    height: 264px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

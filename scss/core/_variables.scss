@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+/* Color palette */
+
+$colorOrange: #f26002;
+$colorWhite: #ffffff;
+$colorLightBlue: #8ccbea;
+$colorDarkBlue: #304268;
+$colorBlack: #000000;
+$colorDarkGrey: #4a4a4a;
+$colorExtraLigthBlue: #e2f1f9;
+
+
+/* Text styles */
+
+
+.Hero-title {
+  font-family: RobotoSlab;
+  font-size: 42px;
+  line-height: 1.31;
+  text-align: center;
+	height: 110px;
+}
+@media (min-width: 768px) {
+	.Hero-title {
+	  font-size: 80px;
+	  line-height: 1.33;
+		height: 212px;
+	}
+}
+@media (min-width: 1280px) {
+	.Hero-title {
+	  font-size: 100px;
+	  line-height: 1.32;
+		height: 264px;
+	}
+}
+
+.Hero-summary {
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: center;
+	font-weight: 300;
+	height: 21px;
+}
+@media (min-width: 768px) {
+	.Hero-summary {
+	  font-size: 24px;
+		height: 32px;
+	}
+}
+
+
+
+
+.Section-title---desktop-center {
+  font-family: RobotoSlab;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.41;
+  text-align: center;
+}
+
+.Section-title---desktop {
+  font-family: RobotoSlab;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.41;
+  text-align: left;
+}
+
+.Section-title---tablet {
+  font-family: RobotoSlab;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.73;
+  text-align: left;
+}
+
+.Section-title---tablet-center {
+  font-family: RobotoSlab;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.73;
+  text-align: center;
+}
+
+.Section-title---mobile {
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+}
+
+.Section-title---mobile {
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.Button-alt {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  text-align: center;
+}
+
+button {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  text-align: center;
+}
+
+.Reason-description---tablet {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.Section-description---tablet {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.Reason-title---mobile {
+  font-family: RobotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.Reason-description---mobile {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.Section-description {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: left;
+}
+
+.Menu-item {
+  font-family: RobotoSlab;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.81;
+  text-align: left;
+}
+
+.Section-category {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: left;
+}
+
+.Footer---mobile {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: center;
+}

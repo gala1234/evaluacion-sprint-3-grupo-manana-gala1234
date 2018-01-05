@@ -1,19 +1,7 @@
 {
-	"name": "AdalabWebStarterKit",
+	"name": "evaluacionSprint3GrupoMananaGala1234",
 	"version": "1.0.0",
-	"description": "Adalab web starter kit",
-	"dependencies": {},
-	"devDependencies": {},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com:Adalab/Adalab-web-starter-kit.git"
-	},
-	"author": "Adalab",
-	"license": "MIT",
-	"homepage": "https://github.com/Adalab/Adalab-web-starter-kit",
+	"description": "evaluacion-sprint-3-grupo-manana-gala1234",
 	"dependencies": {
 		"browser-sync": "*",
 		"gulp-autoprefixer": "*",
@@ -30,5 +18,16 @@
 		"gulp": "*",
 		"run-sequence": "*",
 		"gulp-zip": "*"
-	}
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:Adalab/Adalab-web-starter-kit.git"
+	},
+	"author": "Gala",
+	"license": "MIT",
+	"homepage": "https://github.com/Adalab/Adalab-web-starter-kit"
 }
