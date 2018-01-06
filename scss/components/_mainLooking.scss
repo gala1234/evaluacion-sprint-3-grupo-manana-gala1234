@@ -1,0 +1,14 @@
+.block_main_section-looking {
+  background-color: $colorWhite;
+  padding: 30px 0 45px 4.69%;
+}
+@media (min-width: 768px) {
+	.block_main_section-looking {
+		padding: 30px 0 60px 5.08%;
+	}
+}
+@media (min-width: 1280px) {
+	.block_main_section-looking {
+		padding: 60px 0 60px 21.48%;
+	}
+}

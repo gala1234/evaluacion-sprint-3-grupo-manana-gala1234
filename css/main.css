@@ -136,6 +136,7 @@ button {
   font-size: 14px;
   line-height: 2.14;
   text-align: center;
+  font-weight: 300;
 }
 
 body {
@@ -216,12 +217,11 @@ body {
 }
 
 .block_hero_navigation {
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 276px;
   background: rgba(249, 249, 249, 0.97);
   left: -400px;
-  top: 0;
   -webkit-transition: left ease 0.8s;
   transition: left ease 0.8s;
 }
@@ -273,7 +273,7 @@ body {
 }
 
 .block_hero_menu {
-  color: rgba(48, 66, 104, 0.75);
+  color: rgba(49, 67, 102, 0.75);
   margin: 0;
   padding: 44px 0 0;
   list-style: none;
@@ -301,7 +301,7 @@ body {
 
 .block_hero_menu_link:hover {
   color: #ffffff;
-  background: rgba(24, 33, 52, 0.5);
+  background: rgba(25, 34, 51, 0.5);
 }
 
 .block_hero-div {
@@ -357,6 +357,52 @@ body {
   padding: 0;
 }
 
+.block_main_section-looking {
+  background-color: #ffffff;
+  padding: 30px 0 45px 4.69%;
+}
+
+.block_main_section-reason {
+  background-color: #EFF9FF;
+}
+
+.block_footer {
+  background-color: #314366;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 39px 0 30px 0;
+  height: 59px;
+}
+
+.block_footer-slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block_footer-slogan-heart {
+  color: #F0601F;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.block_footer-slogan-p {
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 768px) {
   .Hero-title {
     font-size: 80px;
@@ -380,6 +426,10 @@ body {
   .block_hero_scroll-div {
     margin-top: 30px;
   }
+
+  .block_main_section-looking {
+    padding: 30px 0 60px 5.08%;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -391,6 +441,10 @@ body {
 
   .Hero-summary {
     margin: 0 0 0 0;
+  }
+
+  .block_main_section-looking {
+    padding: 60px 0 60px 21.48%;
   }
 }
 

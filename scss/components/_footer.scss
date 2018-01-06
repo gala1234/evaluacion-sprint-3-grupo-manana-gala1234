@@ -1,0 +1,23 @@
+.block_footer {
+  background-color: $colorDarkBlue;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: $colorWhite;
+  padding: 39px 0 30px 0;
+  height: 59px
+}
+
+.block_footer-slogan {
+  display: flex;
+}
+.block_footer-slogan-heart {
+  color: $colorOrange;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.block_footer-slogan-p {
+  margin: 0;
+  padding:0;
+}
