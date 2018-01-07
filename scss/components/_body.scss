@@ -1,0 +1,29 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.page {
+	&::after {
+		content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+		height: 0;
+		width: 0;
+		background: rgba($colorBlack, 0);
+		transition: background ease 1s .4s;
+	}
+}
+.page_darkened-menu-visible {  /*Para oscurecer el resto de la pagina*/
+	&::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba($colorBlack, .53);
+	z-index: 1;
+}
+}

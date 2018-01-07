@@ -1,20 +1,4 @@
-body {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-.page {
-	&::after {
-		content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-		height: 0;
-		width: 0;
-		background: rgba($colorBlack, 0);
-		transition: background ease 1s .4s;
-	}
-}
+
 .block_hero {
 	height: 100vh;
 	background-color: $colorOrange;
@@ -39,6 +23,7 @@ body {
 	padding: 0;
 	outline: none;
 	cursor: pointer;
+	z-index: 2;
  }
 .block_hero_menu-lines {
 	padding: 0;
@@ -49,28 +34,16 @@ body {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: auto;
-	z-index: 1;
+	z-index: 3;
 }
 /*NAV*/
-.block_hero_menu-visible {  /*Para oscurecer el resto de la pagina*/
-	&::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background: rgba($colorBlack, .53);
-	z-index: 1;
-}
-}
 .block_hero_navigation {
 	position: fixed;
 	height: 100%;
 	width: 276px;
 	background: rgba($colorLightGrey, 0.97);
 	left: -400px;
-	.block_hero_menu-visible & {
+	.page_darkened-menu-visible & {
 		left: 0;
 		z-index: 2;
 	}

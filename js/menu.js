@@ -1,4 +1,4 @@
-//para aclarar el resto cuando el menu se despliega
+//para oscurecer el resto cuando el menu se despliega
 
 // Variables
 var page = document.querySelector('.page');
@@ -7,11 +7,11 @@ var menuCloseBTN = page.querySelector('.block_hero_menu-close');
 
 // Functions
 function openNavMenu() {
-	page.classList.add('block_hero_menu-visible');
+	page.classList.add('page_darkened-menu-visible');
 };
 
 function closeNavMenu() {
-	page.classList.remove('block_hero_menu-visible');
+	page.classList.remove('page_darkened-menu-visible');
 };
 
 
