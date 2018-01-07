@@ -53,9 +53,63 @@ $colorLineMenu: #D8EAF2;
 	}
 }
 
+// SECC LOOKING
+.Section-title---mobile-h5 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  color: rgba($colorLightBlue, 0.8);
+  text-align: left;
+}
+@media (min-width: 1280px) {
+  .Section-title---mobile-h5 {
+    font-size: 16px;
+  }
+}
+
+.Section-title---mobile-h3 {
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: $colorBlack;
+  text-align: left;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
+}
+@media (min-width: 768px) {
+  .Section-title---mobile-h3 {
+    font-size: 26px;
+    line-height: 1.74;
+  }
+}
+@media (min-width: 1280px) {
+  .Section-title---mobile-h3 {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+}
+.Section-description {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .Section-description {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
 
 
-
+.Reason-title---mobile {
+  font-family: RobotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: center;
+}
 .Section-title---desktop-center {
   font-family: RobotoSlab;
   font-size: 32px;
@@ -126,20 +180,7 @@ $colorLineMenu: #D8EAF2;
   text-align: center;
 }
 
-.Section-description---tablet {
-  font-family: Roboto;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: left;
-}
 
-.Reason-title---mobile {
-  font-family: RobotoSlab;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.67;
-  text-align: center;
-}
 
 .Reason-description---mobile {
   font-family: Roboto;
@@ -148,12 +189,7 @@ $colorLineMenu: #D8EAF2;
   text-align: center;
 }
 
-.Section-description {
-  font-family: Roboto;
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: left;
-}
+
 
 .Menu-item {
   font-family: Roboto;

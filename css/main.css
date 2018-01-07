@@ -16,6 +16,40 @@
   height: 21px;
 }
 
+.Section-title---mobile-h5 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  color: rgba(140, 203, 234, 0.8);
+  text-align: left;
+}
+
+.Section-title---mobile-h3 {
+  font-family: RobotoSlab;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #000000;
+  text-align: left;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
+}
+
+.Section-description {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: left;
+}
+
+.Reason-title---mobile {
+  font-family: RobotoSlab;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: center;
+}
+
 .Section-title---desktop-center {
   font-family: RobotoSlab;
   font-size: 32px;
@@ -86,33 +120,11 @@
   text-align: center;
 }
 
-.Section-description---tablet {
-  font-family: Roboto;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: left;
-}
-
-.Reason-title---mobile {
-  font-family: RobotoSlab;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.67;
-  text-align: center;
-}
-
 .Reason-description---mobile {
   font-family: Roboto;
   font-size: 18px;
   line-height: 1.67;
   text-align: center;
-}
-
-.Section-description {
-  font-family: Roboto;
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: left;
 }
 
 .Menu-item {
@@ -374,6 +386,22 @@ body {
   margin: 30px 4.6875% 45px 4.6875%;
 }
 
+.block_main_section-looking-h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.block_main_section-looking-h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.block_main_section-looking-p {
+  margin: 15px 0 0 0;
+  padding: 0;
+  color: rgba(74, 74, 74, 0.9);
+}
+
 .block_main_section-looking-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -385,6 +413,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   width: 26.21%;
+  max-width: 91px;
   height: 45px;
   text-decoration: none;
   border-radius: 30px;
@@ -393,10 +422,53 @@ body {
   background: #ffffff;
   cursor: pointer;
   padding: 0;
+  margin-top: 30px;
 }
 
 .block_main_section-reason {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 90px 138px 138px 138px 30px;
   background-color: #EFF9FF;
+}
+
+.block_main_section-reason-h3 {
+  grid-column: 1/4;
+  text-align: center;
+  padding: 30px 0 30px 0;
+  margin: 0;
+}
+
+.block_main_section-reason-article {
+  grid-column: 1/4;
+  text-align: center;
+  width: 56.26%;
+  padding: 15px 0 30px 0;
+  margin: 0;
+}
+
+.block_main_section-reason-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column: 1/4;
+  width: 57.5%;
+  max-width: 210px;
+  height: 45px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #ffffff;
+  background: #F0601F;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 30px;
 }
 
 .block_footer {
@@ -446,6 +518,16 @@ body {
     height: 32px;
   }
 
+  .Section-title---mobile-h3 {
+    font-size: 26px;
+    line-height: 1.74;
+  }
+
+  .Section-description {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
   .block_hero-div {
     padding: 384px 4.6875% 0 4.6875%;
   }
@@ -459,11 +541,21 @@ body {
   }
 
   .block_main_section-looking-div {
-    margin: 30px 5.0781% 60px 5.0781%;
+    margin: 30px 5.08% 60px 5.08%;
+  }
+
+  .block_main_section-looking-p {
+    margin: 30px 0 0 0;
   }
 
   .block_main_section-looking-btn {
     width: 13.19%;
+    max-width: 160px;
+  }
+
+  .block_main_section-reason-btn {
+    width: 27.34%;
+    max-width: 255px;
   }
 }
 
@@ -474,6 +566,15 @@ body {
     height: 264px;
   }
 
+  .Section-title---mobile-h5 {
+    font-size: 16px;
+  }
+
+  .Section-title---mobile-h3 {
+    font-size: 32px;
+    line-height: 1.41;
+  }
+
   .Hero-summary {
     margin: 0 0 0 0;
   }
@@ -482,8 +583,16 @@ body {
     margin: 60px 21.4844% 60px 21.4844%;
   }
 
+  .block_main_section-looking-p {
+    margin: 30px 0 0 0;
+  }
+
   .block_main_section-looking-btn {
     width: 21.92%;
+  }
+
+  .block_main_section-reason-btn {
+    width: 19.92%;
   }
 }
 
