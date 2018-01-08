@@ -18,3 +18,7 @@ function closeNavMenu() {
 // Magic
 menuTrigger.addEventListener('click', openNavMenu);
 menuCloseBTN.addEventListener('click', closeNavMenu);
+
+//Que se cierre menú al elegir sección:
+var selectMenuItem = document.querySelector('.block_hero_menu_item');
+selectMenuItem.addEventListener('click', closeNavMenu);

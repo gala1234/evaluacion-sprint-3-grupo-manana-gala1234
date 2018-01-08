@@ -22,20 +22,17 @@ $colorLineMenu: #D8EAF2;
   font-size: 42px;
   line-height: 1.31;
   text-align: center;
-	height: 110px;
 }
 @media (min-width: 768px) {
 	.Hero-title {
 	  font-size: 80px;
 	  line-height: 1.33;
-		height: 212px;
 	}
 }
 @media (min-width: 1280px) {
 	.Hero-title {
 	  font-size: 100px;
 	  line-height: 1.32;
-		height: 264px;
 	}
 }
 
@@ -44,12 +41,12 @@ $colorLineMenu: #D8EAF2;
   font-size: 16px;
   text-align: center;
 	font-weight: 300;
-	height: 21px;
+	line-height: 1.32;
 }
 @media (min-width: 768px) {
 	.Hero-summary {
 	  font-size: 24px;
-		height: 32px;
+		line-height: 1.33;
 	}
 }
 
@@ -61,12 +58,11 @@ $colorLineMenu: #D8EAF2;
   line-height: 30px;
   color: rgba($colorLightBlue, 0.8);
   text-align: left;
+	@media (min-width: 1280px) {
+	    font-size: 16px;
+	}
 }
-@media (min-width: 1280px) {
-  .Section-title---mobile-h5 {
-    font-size: 16px;
-  }
-}
+
 
 .Section-title---mobile-h3 {
   font-family: RobotoSlab;
@@ -76,19 +72,16 @@ $colorLineMenu: #D8EAF2;
   color: $colorBlack;
   text-align: left;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
+	@media (min-width: 768px) {
+	    font-size: 26px;
+	    line-height: 1.74;
+	}
+	@media (min-width: 1280px) {
+	    font-size: 32px;
+	    line-height: 1.41;
+	}
 }
-@media (min-width: 768px) {
-  .Section-title---mobile-h3 {
-    font-size: 26px;
-    line-height: 1.74;
-  }
-}
-@media (min-width: 1280px) {
-  .Section-title---mobile-h3 {
-    font-size: 32px;
-    line-height: 1.41;
-  }
-}
+
 .Section-description {
   font-family: Roboto;
   font-size: 18px;

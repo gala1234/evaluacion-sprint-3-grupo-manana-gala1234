@@ -2,8 +2,10 @@
 
 @import 'core/variables';
 
-@import 'components/body';
-@import 'components/hero';
-@import 'components/mainLooking';
-@import 'components/mainReason';
-@import 'components/footer'
+@import 'components/buttons';
+
+@import 'layout/body';
+@import 'layout/hero';
+@import 'layout/mainLooking';
+@import 'layout/mainReason';
+@import 'layout/footer';

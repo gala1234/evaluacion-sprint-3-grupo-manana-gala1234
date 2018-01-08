@@ -8,7 +8,6 @@
 	background-size: cover;
 }
 .block_hero_menu-trigger {
-	position: fixed;
 	display: flex;
 	justify-content: center;
 	width: 44px;
@@ -39,6 +38,7 @@
 /*NAV*/
 .block_hero_navigation {
 	position: fixed;
+	top: 0;
 	height: 100%;
 	width: 276px;
 	background: rgba($colorLightGrey, 0.97);
@@ -93,18 +93,20 @@
 	&:first-child {
 		border-top: 1px solid rgba($colorLineMenu, 1);
 	}
+	cursor: pointer;
+	&:hover {
+		color: $colorWhite;
+		background: rgba(mix($colorBlack, $colorDarkBlue), 0.5);
+	}
 }
 .block_hero_menu_link {
+	position: fixed;
 	padding: 0 15px;
 	display: block;
 	line-height: 45px;
 	color: inherit;
 	text-decoration: none;
 	transition: background ease 0.9s, color ease 0.3s;
-	&:hover {
-		color: $colorWhite;
-		background: rgba(mix($colorBlack, $colorDarkBlue), 0.5);
-	}
 }
 
 .block_hero-div {
@@ -112,12 +114,27 @@
 	flex-direction: column;
 	align-items: center;
 	color: white;
-	padding: 284px 4.6875% 0 4.6875%;
+	padding: 240px 4.6875% 0 4.6875%;
 	margin: 0;
+}
+@media (min-width: 320px) and (max-height: 568px){
+	.block_hero-div {
+		padding: 20vh 4.6875% 0 4.6875%;
+	}
 }
 @media (min-width: 768px) {
 	.block_hero-div {
-		padding: 384px 4.6875% 0 4.6875%;
+		padding: 340px 4.6875% 0 4.6875%;
+	}
+}
+@media (min-width: 768px) and (max-height: 780px){
+	.block_hero-div {
+		padding: 30vh 4.6875% 0 4.6875%;
+	}
+}
+@media (min-width: 1280px) and (max-height: 780px){
+	.block_hero-div {
+		padding: 30vh 4.6875% 0 4.6875%;
 	}
 }
 .Hero-title {
@@ -142,8 +159,8 @@
 	align-items: center;
 	height: 45px;
 	width: 45px;
-	background-color: white;
 	border-radius: 50px;
+	background-color: white;
 	margin-top: 45px;
 }
 @media (min-width: 768px) {
