@@ -50,6 +50,14 @@ $colorLineMenu: #D8EAF2;
 	}
 }
 
+.Menu-item {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.81;
+  text-align: left;
+}s
+
 // SECC LOOKING
 .Section-title---mobile-h5 {
   font-family: Roboto;
@@ -102,94 +110,28 @@ $colorLineMenu: #D8EAF2;
   font-weight: bold;
   line-height: 1.67;
   text-align: center;
+  margin: 0;
+  @media (min-width: 768px) {
+    font-size: 24px;
+    line-height: 1.25;
+  }
 }
-.Section-title---desktop-center {
-  font-family: RobotoSlab;
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.41;
-  text-align: center;
-}
-
-.Section-title---desktop {
-  font-family: RobotoSlab;
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.41;
-  text-align: left;
-}
-
-.Section-title---tablet {
-  font-family: RobotoSlab;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.73;
-  text-align: left;
-}
-
-.Section-title---tablet-center {
-  font-family: RobotoSlab;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.73;
-  text-align: center;
-}
-
-.Section-title---mobile {
-  font-family: RobotoSlab;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
-  text-align: left;
-}
-
-.Section-title---mobile {
-  font-family: RobotoSlab;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
-  text-align: center;
-}
-
-.Button-alt {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 2.25;
-  text-align: center;
-}
-
-.button {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.Reason-description---tablet {
-  font-family: Roboto;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-
-
 .Reason-description---mobile {
   font-family: Roboto;
   font-size: 18px;
   line-height: 1.67;
   text-align: center;
+  margin: 0;
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.5;
+  }
 }
-
-
-
-.Menu-item {
+.button {
   font-family: Roboto;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 2.81;
-  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .Section-category {

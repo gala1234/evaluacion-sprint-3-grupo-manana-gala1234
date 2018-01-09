@@ -9,6 +9,7 @@
 			"js/popper.min.js",
 			"js/menu.js",
 			"js/smooth-scroll.js",
+			"js/apiRequest.js/",
 			"js/main.js"
 		],
 		"dest": "js/"

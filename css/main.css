@@ -15,6 +15,15 @@
   line-height: 1.32;
 }
 
+.Menu-item {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.81;
+  text-align: left;
+}
+
+s
 .Section-title---mobile-h5 {
   font-family: Roboto;
   font-size: 14px;
@@ -47,76 +56,7 @@
   font-weight: bold;
   line-height: 1.67;
   text-align: center;
-}
-
-.Section-title---desktop-center {
-  font-family: RobotoSlab;
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.41;
-  text-align: center;
-}
-
-.Section-title---desktop {
-  font-family: RobotoSlab;
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 1.41;
-  text-align: left;
-}
-
-.Section-title---tablet {
-  font-family: RobotoSlab;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.73;
-  text-align: left;
-}
-
-.Section-title---tablet-center {
-  font-family: RobotoSlab;
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.73;
-  text-align: center;
-}
-
-.Section-title---mobile {
-  font-family: RobotoSlab;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
-  text-align: left;
-}
-
-.Section-title---mobile {
-  font-family: RobotoSlab;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.25;
-  text-align: center;
-}
-
-.Button-alt {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 2.25;
-  text-align: center;
-}
-
-.button {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-}
-
-.Reason-description---tablet {
-  font-family: Roboto;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
+  margin: 0;
 }
 
 .Reason-description---mobile {
@@ -124,14 +64,14 @@
   font-size: 18px;
   line-height: 1.67;
   text-align: center;
+  margin: 0;
 }
 
-.Menu-item {
+.button {
   font-family: Roboto;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 2.81;
-  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .Section-category {
@@ -471,7 +411,7 @@ body {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 60px 93px 93px 93px 45px 16px;
+  grid-template-rows: 60px 369px 45px 16px;
   background-color: #EFF9FF;
   grid-row-gap: 45px;
 }
@@ -481,6 +421,16 @@ body {
   text-align: center;
   padding: 30px 0 0 0;
   margin: 0;
+}
+
+.block_main_section-reason-articles {
+  display: grid;
+  grid-column: span 3;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 93px 93px 93px;
+  background-color: #EFF9FF;
+  grid-row-gap: 45px;
 }
 
 .block_main_section-reason-article {
@@ -573,6 +523,16 @@ body {
     line-height: 1.5;
   }
 
+  .Reason-title---mobile {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  .Reason-description---mobile {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
   .block_hero_scroll-div {
     margin-top: 30px;
   }
@@ -602,8 +562,19 @@ body {
     max-width: 160px;
   }
 
+  .block_main_section-reason {
+    grid-template-rows: 60px 127px 45px 15px;
+  }
+
+  .block_main_section-reason-articles {
+    grid-template-rows: 112px;
+    padding: 0 38px 15px 40px;
+  }
+
   .block_main_section-reason-article {
     grid-column: span 1;
+    padding: 0 5%;
+    grid-column-gap: 30px;
   }
 
   .block_main_section-reason-more {
@@ -630,7 +601,8 @@ body {
     line-height: 1.32;
   }
 
-  .Section-title---mobile-h5 {
+  s
+.Section-title---mobile-h5 {
     font-size: 16px;
   }
 
@@ -653,6 +625,11 @@ body {
 
   .block_main_section-looking-btn {
     width: 21.92%;
+  }
+
+  .block_main_section-reason-articles {
+    grid-template-rows: 112px;
+    padding: 0 85px 15px 85px;
   }
 
   .block_main_section-reason-more {

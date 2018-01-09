@@ -1,3 +1,5 @@
+'use strict';
+
 //para oscurecer el resto cuando el menu se despliega
 
 // Variables
