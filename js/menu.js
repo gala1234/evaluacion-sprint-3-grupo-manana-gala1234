@@ -6,6 +6,7 @@
 var page = document.querySelector('.page');
 var menuTrigger = page.querySelector('.block_hero_menu-trigger');
 var menuCloseBTN = page.querySelector('.block_hero_menu-close');
+var menuItem = document.querySelectorAll('.block_hero_menu_item');
 
 // Functions
 function openNavMenu() {
@@ -22,5 +23,4 @@ menuTrigger.addEventListener('click', openNavMenu);
 menuCloseBTN.addEventListener('click', closeNavMenu);
 
 //Que se cierre menú al elegir sección:
-var selectMenuItem = document.querySelector('.block_hero_menu_item');
-selectMenuItem.addEventListener('click', closeNavMenu);
+menuItem.addEventListener('click', closeNavMenu);
