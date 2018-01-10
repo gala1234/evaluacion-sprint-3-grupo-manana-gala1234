@@ -28,16 +28,16 @@
 
 // scroll reason up
 .block_main_section-reason-top {
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	grid-column: 2/3;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -50%);
 	height: 45px;
 	width: 45px;
 	background-color: $colorWhite;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: auto;
 	border: none;
 	border-radius: 50px;
 	padding: 0;
